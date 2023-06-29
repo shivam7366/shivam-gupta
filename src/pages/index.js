@@ -17,7 +17,6 @@ import {
 } from "../data";
 import NewLanding from "../components/NewLanding";
 import Skills from "../components/skills";
-// import WorkEducation from "../src/components/WorkEducation";
 
 export default function Home() {
   const [hero, setHero] = useState({});
@@ -43,9 +42,7 @@ export default function Home() {
         <main>
           {" "}
           <NewLanding />
-          {/* <Hero /> */}
           <Skills />
-          {/* <WorkEducation /> */}
           <About />
           <SingleProject limit={3} exploreBtnShow={true} />
           <Contact />

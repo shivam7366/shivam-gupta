@@ -21,6 +21,7 @@ import {
   ListItem,
   ListItemButton,
   ListItemText,
+  colors,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 const pages = [
@@ -31,7 +32,7 @@ const pages = [
   {
     name: "Projects",
 
-    link: "/projects",
+    link: "/project",
   },
 ];
 const drawerWidth = 240;
@@ -72,8 +73,12 @@ export default function Navigation(props) {
         height: "100%",
       }}
     >
-      <Typography variant="h4" fontFamily="monospace" sx={{ my: 2 }}>
-        Shivam Gupta
+      <Typography
+        variant="h4"
+        fontFamily="monospace"
+        sx={{ my: 2, color: "white" }}
+      >
+        @Shivam
       </Typography>
       <Divider />
       <List>
@@ -83,7 +88,7 @@ export default function Navigation(props) {
               <ListItemButton sx={{ textAlign: "center" }}>
                 <ListItemText
                   primary={item.name}
-                  sx={{ fontSize: "1.4rem !important" }}
+                  sx={{ fontSize: "1.4rem !important", color: "white" }}
                 />
               </ListItemButton>
             </ListItem>
@@ -138,7 +143,7 @@ export default function Navigation(props) {
                   textDecoration: "none",
                 }}
               >
-                Shivam Gupta
+                @Shivam
               </Typography>
               <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
                 <IconButton
@@ -174,8 +179,9 @@ export default function Navigation(props) {
                 variant="h3"
                 noWrap
                 component="a"
+                href="/"
                 sx={{
-                  // mr: 2,
+                  mr: 2,
                   display: { xs: "flex", md: "none" },
                   flexGrow: 1,
                   fontFamily: "monospace",
@@ -185,7 +191,7 @@ export default function Navigation(props) {
                   textDecoration: "none",
                 }}
               >
-                Shivam Gupta
+                @Shivam
               </Typography>
 
               <Box

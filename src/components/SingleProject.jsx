@@ -32,8 +32,8 @@ const Projects = ({ limit, exploreBtnShow }) => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {showProjects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
-            console.log(img);
+            const { title, info, info2, info3, url, repo, img, id } = project;
+            // console.log(img);
 
             return (
               <Row key={id}>
@@ -50,11 +50,24 @@ const Projects = ({ limit, exploreBtnShow }) => {
                         {title || "Project Title"}
                       </h3>
                       <div>
-                        <p>
-                          {info ||
-                            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae."}
-                        </p>
-                        <p className="mb-4">{info2 || ""}</p>
+                        <ul>
+                          <li>
+                            <p>
+                              {info ||
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae."}
+                            </p>
+                          </li>
+                          {info2 && (
+                            <li>
+                              <p className="mb-4">{info2}</p>
+                            </li>
+                          )}
+                          {info3 && (
+                            <li>
+                              <p className="mb-4">{info3}</p>
+                            </li>
+                          )}
+                        </ul>
                       </div>
                       <a
                         target="_blank"
@@ -132,7 +145,7 @@ const Projects = ({ limit, exploreBtnShow }) => {
                 <span className="cta-btn cta-btn--hero">
                   <Link
                     // rel="noopener noreferrer"
-                    to="/projects"
+                    to="/project"
                     smooth
                     duration={800}
                   >
