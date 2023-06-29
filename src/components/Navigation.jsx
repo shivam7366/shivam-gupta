@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 const pages = [
   {
     name: "Home",
-    link: "",
+    link: "/",
   },
   {
     name: "Projects",
