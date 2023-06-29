@@ -12,19 +12,11 @@ import {
   IconButton,
   Typography,
   Container,
-  Avatar,
-  Button,
-  Link,
   Drawer,
   Divider,
-  List,
-  ListItem,
-  ListItemButton,
-  ListItemText,
-  colors,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Navigate } from "react-router";
+import { Link } from "react-router-dom";
 const pages = [
   {
     name: "Home",
