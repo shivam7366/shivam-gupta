@@ -24,6 +24,7 @@ import {
   colors,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import { Navigate } from "react-router";
 const pages = [
   {
     name: "Home",
@@ -32,7 +33,7 @@ const pages = [
   {
     name: "Projects",
 
-    link: "#/project",
+    link: "/project",
   },
 ];
 const drawerWidth = 240;
@@ -81,20 +82,15 @@ export default function Navigation(props) {
         @Shivam
       </Typography>
       <Divider />
-      <List>
-        {pages.map((item) => (
-          <Link to={item.link} color="black" underline="none" key={item.name}>
-            <ListItem key={item.name} disablePadding>
-              <ListItemButton sx={{ textAlign: "center" }}>
-                <ListItemText
-                  primary={item.name}
-                  sx={{ fontSize: "1.4rem !important", color: "white" }}
-                />
-              </ListItemButton>
-            </ListItem>
-          </Link>
-        ))}
-      </List>
+
+      {pages.map((item) => (
+        <Link href={item.link} key={item.name}>
+          <Typography sx={{ my: 2, color: "white", fontSize: "16px" }}>
+            {item.name}
+          </Typography>
+        </Link>
+      ))}
+
       <div className="social-links">
         {networks &&
           networks.map((network) => {
