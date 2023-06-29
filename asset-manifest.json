@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/shivam-gupta/static/css/main.a7daca31.css",
-    "main.js": "/shivam-gupta/static/js/main.ffc28f85.js",
+    "main.css": "/shivam-gupta/static/css/main.20275ccd.css",
+    "main.js": "/shivam-gupta/static/js/main.511714e8.js",
     "static/js/787.5aa48054.chunk.js": "/shivam-gupta/static/js/787.5aa48054.chunk.js",
+    "static/media/six.png": "/shivam-gupta/static/media/six.85a57dc0ea6d201f7044.png",
     "static/media/profile.jpg": "/shivam-gupta/static/media/profile.369b5d82662cf698cfec.jpg",
-    "static/media/project.jpg": "/shivam-gupta/static/media/project.5ad6096036391d70f3f8.jpg",
+    "static/media/eight.png": "/shivam-gupta/static/media/eight.a44c601c5d98765c8569.png",
     "static/media/three.jpg": "/shivam-gupta/static/media/three.4cbf3cfbe0e6f7b443cf.jpg",
     "static/media/one.jpg": "/shivam-gupta/static/media/one.06b2988bb7ffa85c5cd7.jpg",
     "static/media/two.jpg": "/shivam-gupta/static/media/two.eea5827534d9aa686e70.jpg",
+    "static/media/five.jpg": "/shivam-gupta/static/media/five.e815a6db6cf3cb69e4d6.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/shivam-gupta/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/seven.jpg": "/shivam-gupta/static/media/seven.88c2f99fc98ca276cc18.jpg",
+    "static/media/four.jpg": "/shivam-gupta/static/media/four.6230fe241d856c0f0256.jpg",
     "static/media/table.png": "/shivam-gupta/static/media/table.14d9cf11205e846eb952.png",
     "static/media/skills.svg": "/shivam-gupta/static/media/skills.bcb75c94ab5c30b067284d994b3655ae.svg",
     "static/media/codeshadow.png": "/shivam-gupta/static/media/codeshadow.172b7d9045e1b6d14bac.png",
     "static/media/man.png": "/shivam-gupta/static/media/man.9f3edb31ce7c114b1048.png",
     "static/media/introimg1.svg": "/shivam-gupta/static/media/introimg1.e8967a78fc6abad20b36cdf69a16992f.svg",
     "index.html": "/shivam-gupta/index.html",
-    "main.a7daca31.css.map": "/shivam-gupta/static/css/main.a7daca31.css.map",
-    "main.ffc28f85.js.map": "/shivam-gupta/static/js/main.ffc28f85.js.map",
+    "main.20275ccd.css.map": "/shivam-gupta/static/css/main.20275ccd.css.map",
+    "main.511714e8.js.map": "/shivam-gupta/static/js/main.511714e8.js.map",
     "787.5aa48054.chunk.js.map": "/shivam-gupta/static/js/787.5aa48054.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7daca31.css",
-    "static/js/main.ffc28f85.js"
+    "static/css/main.20275ccd.css",
+    "static/js/main.511714e8.js"
   ]
 }
