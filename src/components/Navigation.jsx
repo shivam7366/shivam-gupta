@@ -25,7 +25,7 @@ const pages = [
   {
     name: "Projects",
 
-    link: "/project",
+    link: "project",
   },
 ];
 const drawerWidth = 240;
@@ -76,11 +76,19 @@ export default function Navigation(props) {
       <Divider />
 
       {pages.map((item) => (
-        <Link href={item.link} key={item.name}>
-          <Typography sx={{ my: 2, color: "white", fontSize: "16px" }}>
-            {item.name}
-          </Typography>
-        </Link>
+        <div className="text-center mt-5">
+          <p className="hero-cta mt-5">
+            <span className="">
+              <Link
+                // rel="noopener noreferrer"
+                to={item.link}
+                style={{ color: "white" }}
+              >
+                {item.name}
+              </Link>
+            </span>
+          </p>
+        </div>
       ))}
 
       <div className="social-links">
