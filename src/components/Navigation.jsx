@@ -27,7 +27,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 const pages = [
   {
     name: "Home",
-    link: "/",
+    link: "",
   },
   {
     name: "Projects",
@@ -132,7 +132,7 @@ export default function Navigation(props) {
                 variant="h3"
                 noWrap
                 component="a"
-                href="/"
+                href=""
                 sx={{
                   mr: 2,
                   display: { xs: "none", md: "flex" },
@@ -179,7 +179,7 @@ export default function Navigation(props) {
                 variant="h3"
                 noWrap
                 component="a"
-                href="/"
+                href=""
                 sx={{
                   mr: 2,
                   display: { xs: "flex", md: "none" },
