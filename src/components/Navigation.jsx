@@ -73,15 +73,13 @@ export default function Navigation(props) {
         height: "100%",
       }}
     >
-      <Link href="/">
-        <Typography
-          variant="h4"
-          fontFamily="monospace"
-          sx={{ my: 2, color: "white" }}
-        >
-          @Shivam
-        </Typography>
-      </Link>
+      <Typography
+        variant="h4"
+        fontFamily="monospace"
+        sx={{ my: 2, color: "white" }}
+      >
+        @Shivam
+      </Typography>
       <Divider />
       <List>
         {pages.map((item) => (
@@ -130,23 +128,23 @@ export default function Navigation(props) {
         >
           <Container maxWidth="xl">
             <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-              <Link href="/">
-                <Typography
-                  variant="h3"
-                  noWrap
-                  sx={{
-                    mr: 2,
-                    display: { xs: "none", md: "flex" },
-                    fontFamily: "monospace",
-                    fontWeight: 700,
-                    letterSpacing: ".3rem",
-                    color: "white",
-                    textDecoration: "none",
-                  }}
-                >
-                  @Shivam
-                </Typography>
-              </Link>
+              <Typography
+                variant="h3"
+                noWrap
+                component="a"
+                href="/"
+                sx={{
+                  mr: 2,
+                  display: { xs: "none", md: "flex" },
+                  fontFamily: "monospace",
+                  fontWeight: 700,
+                  letterSpacing: ".3rem",
+                  color: "white",
+                  textDecoration: "none",
+                }}
+              >
+                @Shivam
+              </Typography>
               <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
                 <IconButton
                   color="inherit"
@@ -177,24 +175,25 @@ export default function Navigation(props) {
                   {drawer}
                 </Drawer>
               </Box>
-              <Link href="/">
-                <Typography
-                  variant="h3"
-                  noWrap
-                  sx={{
-                    mr: 2,
-                    display: { xs: "flex", md: "none" },
-                    flexGrow: 1,
-                    fontFamily: "monospace",
-                    fontWeight: 700,
-                    letterSpacing: ".1rem",
-                    color: "inherit",
-                    textDecoration: "none",
-                  }}
-                >
-                  @Shivam
-                </Typography>
-              </Link>
+              <Typography
+                variant="h3"
+                noWrap
+                component="a"
+                href="/"
+                sx={{
+                  mr: 2,
+                  display: { xs: "flex", md: "none" },
+                  flexGrow: 1,
+                  fontFamily: "monospace",
+                  fontWeight: 700,
+                  letterSpacing: ".1rem",
+                  color: "inherit",
+                  textDecoration: "none",
+                }}
+              >
+                @Shivam
+              </Typography>
+
               <Box
                 sx={{
                   flexGrow: 0,
