@@ -25,7 +25,7 @@ const pages = [
   {
     name: "Projects",
 
-    link: "project",
+    link: "/project",
   },
 ];
 const drawerWidth = 240;
