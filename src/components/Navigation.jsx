@@ -32,7 +32,7 @@ const pages = [
   {
     name: "Projects",
 
-    link: "project",
+    link: "/project",
   },
 ];
 const drawerWidth = 240;
@@ -83,7 +83,7 @@ export default function Navigation(props) {
       <Divider />
       <List>
         {pages.map((item) => (
-          <Link href={item.link} color="black" underline="none" key={item.name}>
+          <Link to={item.link} color="black" underline="none" key={item.name}>
             <ListItem key={item.name} disablePadding>
               <ListItemButton sx={{ textAlign: "center" }}>
                 <ListItemText
