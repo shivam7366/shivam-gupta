@@ -1,0 +1,33 @@
+<svg id="OBJECTS" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600.28 355.99">
+    <defs>
+        <style>
+            .cls-2 {
+                fill: url(#linear-gradient);
+            }
+
+            .cls-3 {
+                fill: url(#linear-gradient-2);
+            }
+        </style>
+        <linearGradient id="linear-gradient" x1="171.87" y1="178.34" x2="600.28" y2="178.34" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#0074af" />
+            <stop offset="1" stop-color="#1dffe4" />
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="436.35" y1="-170.81" x2="557.85" y2="411.16" xlink:href="#linear-gradient" />
+        <linearGradient id="linear-gradient-3" x1="358.96" y1="208.17" x2="376.22" y2="151.37" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#1c75bc" />
+            <stop offset="0.28" stop-color="#2077bc" />
+            <stop offset="0.54" stop-color="#2b7ebc" />
+            <stop offset="0.8" stop-color="#3e88bc" />
+            <stop offset="1" stop-color="#5394bc" />
+        </linearGradient>
+        <linearGradient id="linear-gradient-4" x1="171.66" y1="177.77" x2="600.06" y2="177.77" xlink:href="#linear-gradient" />
+        <linearGradient id="linear-gradient-5" x1="436.14" y1="-171.38" x2="557.63" y2="410.59" xlink:href="#linear-gradient" />
+        <linearGradient id="linear-gradient-6" x1="358.74" y1="207.6" x2="376.01" y2="150.81" xlink:href="#linear-gradient-3" />
+    </defs>
+    <title>Shap</title>
+    <path class="cls-2" d="M176.58.68s-30.76,69,65,38.36,80.92,11.67,68,33c-14,23.13-32.68,37.21-31,60.08,2.19,30,46.17,31.11,83.06,50.19,89.06,46.08-11.55,7.7-45.48,29.74s-13.23,38.45,33.71,36.77c101.38-3.64,67.76,30.66,50.82,46.19s-14,51,65.77,27,49.79,34,49.79,34h84V.68Z" />
+    <path class="cls-3" d="M506.15.68S391.5-5.3,371.09,70c-22.24,82.09,48.89,120.68,73,101.84s25.22-44.45-12.34-61.35-33.78-69,48.34-56S571.74,172,512.24,197s-45,54.44,19,85.72,29,73.23,29,73.23h40V.68Z" />
+  
+
+</svg>
