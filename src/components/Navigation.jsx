@@ -76,7 +76,7 @@ export default function Navigation(props) {
       <Divider />
 
       {pages.map((item) => (
-        <div className="text-center mt-5">
+        <div className="text-center mt-5" key={item.name}>
           <p className="hero-cta mt-5">
             <span className="">
               <Link
