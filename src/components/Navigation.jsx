@@ -122,9 +122,9 @@ export default function Navigation(props) {
           }}
         >
           <Container maxWidth="xl">
-            <Toolbar>
+            <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
               <Typography
-                variant="h4"
+                variant="h3"
                 noWrap
                 component="a"
                 href="/"
@@ -171,11 +171,11 @@ export default function Navigation(props) {
                 </Drawer>
               </Box>
               <Typography
-                variant="h4"
+                variant="h3"
                 noWrap
                 component="a"
                 sx={{
-                  mr: 2,
+                  // mr: 2,
                   display: { xs: "flex", md: "none" },
                   flexGrow: 1,
                   fontFamily: "monospace",
@@ -187,6 +187,38 @@ export default function Navigation(props) {
               >
                 Shivam Gupta
               </Typography>
+
+              <Box
+                sx={{
+                  flexGrow: 0,
+                  display: { xs: "none", md: "flex" },
+                  alignItems: "flex-end",
+                  justifyContent: "space-between",
+                }}
+              >
+                <div className="social-links" style={{ height: "auto" }}>
+                  {networks &&
+                    networks.map((network) => {
+                      const { id, name, url } = network;
+                      return (
+                        <a
+                          key={id}
+                          href={
+                            url ||
+                            "https://github.com/cobidev/gatsby-simplefolio"
+                          }
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          aria-label={name}
+                        >
+                          <i
+                            className={`fa fa-${name || "refresh"} fa-inverse`}
+                          />
+                        </a>
+                      );
+                    })}
+                </div>
+              </Box>
             </Toolbar>
           </Container>
         </AppBar>

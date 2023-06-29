@@ -37,6 +37,7 @@ export default function Home() {
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
       {/* <Footer /> */}
+
       <Navigation />
       <div>
         <main>

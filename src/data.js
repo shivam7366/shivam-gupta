@@ -23,7 +23,7 @@ export const heroData = {
 export const aboutData = {
   img: "./images/profile.jpg",
   paragraphOne:
-    "Hi all, I'm Shivam Gupta, A passionate Full Stack Web Developer and React Native & Flutter Mobile App Developer having an experience of building applications with HTML / CSS / JavaScript / Reactjs / Nextjs / Nodejs / React Native / Flutter / Bootstrap / Material UI / Tailwind / Ant Design / Webflow and some other cool libraries and frameworks and Databases (MongoDB, SQL, Firebase..)",
+    "Hi all, I'm Shivam Gupta, A passionate Full Stack Web Developer and React Native Mobile App Developer having an experience of building applications with HTML / CSS / JavaScript / Reactjs / Nextjs / Nodejs / React Native/ Bootstrap / Material UI / Tailwind / Ant Design / Webflow and some other cool libraries and frameworks and Databases (MongoDB, SQL, MySQL, Firebase..)",
   paragraphTwo: "",
   paragraphThree: "",
   resume:
@@ -47,8 +47,8 @@ export const projectsData = [
     title: "Portfolio Website",
     info: "",
     info2: "",
-    url: "https://shivam7366.github.io/Task-manager/",
-    repo: "https://github.com/shivam7366/Task-manager", // if no repo, the button will not show up
+    url: "/",
+    repo: "https://github.com/shivam7366/shivam-gupta", // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -101,6 +101,11 @@ export const footerData = {
       name: "phone",
       url: "tel:+91-988-711-7366",
     },
+    // {
+    //   id: nanoid(),
+    //   name: "codeforces",
+    //   url: "https://codeforces.com/profile/shivam_1623",
+    // },
   ],
 };
 

@@ -5,6 +5,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import { headData } from "./data";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
