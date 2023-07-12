@@ -58,7 +58,7 @@ function NewLanding() {
               </Fade>
               <Fade bottom duration={500} delay={200}>
                 <h4>
-                  <span>I create thousand off website</span>
+                  <span>I create thousand of website</span>
                 </h4>
               </Fade>
               <Fade bottom duration={500} delay={200}>
