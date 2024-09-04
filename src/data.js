@@ -31,9 +31,9 @@ export const aboutData = {
   paragraphTwo:
     "I am a self-taught developer and I love to learn new things. I am a quick learner and I am always ready to learn new things. I am a team player and I love to work with a team. I am a hardworking person and I love to do work.",
   paragraphThree:
-    " Currently I am pursuing my bachelor's degree in Electronic & Computer Engineering from MBM Engineering College, Jodhpur. I am in 4th year.",
-  resume:
-    "https://drive.google.com/file/d/1-DhlFgKrBvvpMK6Nm86M4_2hOPBWOFRN/view?usp=sharing", // if no resume, the button will not show up
+    " Currently I am working as Software Engineer in Createbytes,Gurgaon.I've completed my bachelor's degree in Electronic & Computer Engineering from MBM Engineering College, Jodhpur in may 2024",
+  resume: "https://www.linkedin.com/in/gupta-shivam-/",
+  // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -140,12 +140,6 @@ export const footerData = {
       id: nanoid(),
       name: "twitter",
       url: "https://twitter.com/shivam_1623",
-    },
-
-    {
-      id: nanoid(),
-      name: "phone",
-      url: "tel:+91-988-711-7366",
     },
   ],
 };
